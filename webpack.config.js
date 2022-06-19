@@ -94,8 +94,9 @@ module.exports = (env, argv) => ({
   },
   devServer: {
     port: 8080,
-    host: '0.0.0.0',
+    host: 'localhost',
     allowedHosts: 'all',
+    open: true,
     historyApiFallback: true,
     proxy: {
       '/hk': {

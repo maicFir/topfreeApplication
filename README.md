@@ -91,19 +91,22 @@ npm run build
 
 - iphone6/7/8
 
-  ![](https://files.mdnice.com/user/24614/bb956137-17f5-47da-8016-f3a7331f000a.png)
+  ![](https://files.mdnice.com/user/24614/421cbfde-a16c-42bb-8600-11be652e5a9b.png)
+
+- iphone12 pro
+  ![](https://files.mdnice.com/user/24614/3486720a-094a-498c-bbd0-2b1e4c05dbac.png)
 
 - iphone5/se
 
-  ![](https://files.mdnice.com/user/24614/91f31f80-12f4-45bd-8b5b-776eda14eb4d.png)
+  ![](https://files.mdnice.com/user/24614/5b8c9b12-2726-49d1-87e7-c005f4136047.png)
 
 - ipad
 
-  ![](https://files.mdnice.com/user/24614/22bee98d-a869-4612-a698-d74306bc3f82.png)
+  ![](https://files.mdnice.com/user/24614/9408ee17-f2e2-4e35-b19a-9bbffbb87e0c.png)
 
 - Next Hub
 
-  ![](https://files.mdnice.com/user/24614/a129cec1-cb83-4a37-b878-aec345d0ad12.png)
+  ![](https://files.mdnice.com/user/24614/a0f32fb6-469a-4675-a2e8-984b9bcd767a.png)
 
 ### About me
 
