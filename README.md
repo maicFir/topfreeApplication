@@ -16,8 +16,19 @@ popular application in Apple
 
 ### 项目使用技术栈
 
-- 💪 `webpack`、`typescript`、`babel`
+- 💪 `webpack`、`typescript`、`babel`、...
 - 🔥 `vue3`、`vue-router@4`、`jsx`、...
+
+### 项目优化点
+
+- 路由懒加载，按需引入，业务组件细粒化抽离，`hooks`、`jsx`、`异步动态组件`构建页面模块
+- 阿里矢量图标`svg`，`svg-icon`等业务组件的通用封装
+- 使用自定义指令`交叉观察器`懒加载图片
+- `webpack`入口依赖文件分包处理以及支持`tree shaking`
+- `webpack`静态资源类型加载图片资源，对小图片进行`base64`处理，减少页面`http`的请求量
+- 使用`postcss`根据`.browserslistrc`适配不同浏览器的兼容性
+- api 代理层抽象，使用`fetch`做数据请求
+- 采用`rem`方案支持适配不同分辨率移动设备
 
 ### 项目目录
 
@@ -50,13 +61,15 @@ popular application in Apple
 
 ### 环境安装
 
-依赖`nodejs`,先下载对应 node,我的 node 版本是`v14.17.0`,由于使用最新`webpack5`与`vue3`,建议安装比较新的`node`版本，不然可能会存在兼容性问题
+依赖`nodejs`,先下载对应 node,我的 node 版本是`v14.17.0`,由于使用最新`webpack5`与`vue3`,建议安装比较新的`node`版本，不然可能会存在兼容性问题,下载[node](https://registry.npmmirror.com/binary.html?path=node/)参考官方地址
 
 ### 快速开始
 
-- git clone `https://github.com/maicFir/topfreeApplication.git`
-- cd `topfreeapplication`
-- npm i
+1、 git clone `https://github.com/maicFir/topfreeApplication.git`
+
+2、 cd `topfreeapplication`
+
+3、 npm i
 
 ### 启动本地服务
 
@@ -66,7 +79,7 @@ popular application in Apple
  npm run start
 ```
 
-打开地址`http://localhost:8080/#/`
+打开谷歌地址`http://localhost:8080/#/`,mac(option + command +i)打开开发者模拟器，选择不同设备进行查阅页面，window(右键审查/f12 选择模拟器)打开页面访问
 
 ### 打包输出最终`dist`文件
 
@@ -77,20 +90,29 @@ npm run build
 ### 移动设备不同尺寸下界面自适应
 
 - iphone6/7/8
+
   ![](https://files.mdnice.com/user/24614/bb956137-17f5-47da-8016-f3a7331f000a.png)
+
 - iphone5/se
+
   ![](https://files.mdnice.com/user/24614/91f31f80-12f4-45bd-8b5b-776eda14eb4d.png)
+
 - ipad
+
   ![](https://files.mdnice.com/user/24614/22bee98d-a869-4612-a698-d74306bc3f82.png)
+
 - Next Hub
+
   ![](https://files.mdnice.com/user/24614/a129cec1-cb83-4a37-b878-aec345d0ad12.png)
 
-### about me
+### About me
 
 [![GitHub Pages](https://github.com/element-plus/element-plus-playground/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/maicFir/lessonNote)
 
-如果看完项目觉得对你有帮助，就点个`star`鼓励下作者吧，更多技术关注`公众号:Web技术学苑`，好好学习、天天向上!
+- 看完项目如果觉得对你有帮助，就点个`star`鼓励下作者吧
+- 更多技术关注`公众号:Web技术学苑`，好好学习、天天向上!
+  ![](https://files.mdnice.com/user/24614/50dd18f5-e2d5-4eb5-ac76-716aec6da88f.jpg)
 
 ### License
 
-[MIT](./LICENSE) License © 2021-PRESENT [maicFir](https://github.com/maicFir)
+[MIT](./LICENSE) License © 2022-PRESENT [maicFir](https://github.com/maicFir)

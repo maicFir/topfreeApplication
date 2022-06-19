@@ -25,7 +25,7 @@ module.exports = (env, argv) => ({
     rules: [
       {
         test: /\.ts(x?)$/,
-        include: path.resolve(__dirname, 'src'),
+        include: path.resolve(__dirname, 'src'), // 缩小ts编译范围，提高构建速度
         use: [
           {
             loader: 'babel-loader',
