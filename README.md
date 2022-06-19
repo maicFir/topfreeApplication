@@ -4,7 +4,7 @@ popular application in Apple
 
 ### 项目简介
 
-基于`webpack5`、`webpack-cli`、`webpack-dev-server`,`vue3`、`vue-router@4`,从 0 到 1 搭建一个项目，不依赖`vue-cli`脚手架，支持`ts`、`tsx`,使用`postcss`对低版本浏览器样式兼容，`babel-loader`对`ts`编译，`eslint`规范项目代码，主要使用`lugin:vue/vue3-strongly-recommended`,`airbnb-base`,`@typescript-eslint/parser`,使用`@babel/preset-env`编译转换`es6`等
+基于`webpack5`、`webpack-cli`、`webpack-dev-server`,`vue3`、`vue-router@4`,从 0 到 1 搭建一个项目，不依赖`vue-cli`脚手架，支持`ts`、`tsx`,使用`postcss`对低版本浏览器样式兼容，`babel-loader`对`ts`编译，`eslint`规范项目代码，主要使用`plugin:vue/vue3-strongly-recommended`,`airbnb-base`,`@typescript-eslint/parser`,使用`@babel/preset-env`编译转换`es6`等
 
 ---
 
@@ -13,6 +13,11 @@ popular application in Apple
 - 代码格式规范: `eslint`、`@typescript-eslint/parser`、`@typescript-eslint/eslint-plugin`
 - ts 编译: `ts-loader`、`babel-loader`、`typescript`
 - vue3: `vue-loader`、`vue3`、`vue-router`
+
+### 项目使用技术栈
+
+- 💪 `webpack`、`typescript`、`babel`
+- 🔥 `vue3`、`vue-router@4`、`jsx`、...
 
 ### 项目目录
 
@@ -49,7 +54,7 @@ popular application in Apple
 
 ### 快速开始
 
-- git clone
+- git clone `https://github.com/maicFir/topfreeApplication.git`
 - cd `topfreeapplication`
 - npm i
 
@@ -79,3 +84,13 @@ npm run build
   ![](https://files.mdnice.com/user/24614/22bee98d-a869-4612-a698-d74306bc3f82.png)
 - Next Hub
   ![](https://files.mdnice.com/user/24614/a129cec1-cb83-4a37-b878-aec345d0ad12.png)
+
+### about me
+
+[![GitHub Pages](https://github.com/element-plus/element-plus-playground/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/maicFir/lessonNote)
+
+如果看完项目觉得对你有帮助，就点个`star`鼓励下作者吧，更多技术关注`公众号:Web技术学苑`，好好学习、天天向上!
+
+### License
+
+[MIT](./LICENSE) License © 2021-PRESENT [maicFir](https://github.com/maicFir)

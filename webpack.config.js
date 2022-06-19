@@ -23,7 +23,6 @@ module.exports = (env, argv) => ({
   },
   module: {
     rules: [
-
       {
         test: /\.ts(x?)$/,
         include: path.resolve(__dirname, 'src'),
