@@ -1,0 +1,51 @@
+{
+  "id": "3470263",
+  "name": "topFreeApplication",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "popular application in Apple",
+  "glyphs": [
+    {
+      "icon_id": "19644569",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "22779674",
+      "name": "数译_置顶",
+      "font_class": "shuyi_zhiding",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "3706721",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "18170317",
+      "name": "星,星星,星形,半星,实星",
+      "font_class": "star-full",
+      "unicode": "e9a1",
+      "unicode_decimal": 59809
+    },
+    {
+      "icon_id": "18170318",
+      "name": "星,星星,星形,半星,实星",
+      "font_class": "star",
+      "unicode": "e9a2",
+      "unicode_decimal": 59810
+    },
+    {
+      "icon_id": "18170319",
+      "name": "星,星星,星形,半星",
+      "font_class": "star-half",
+      "unicode": "e9a3",
+      "unicode_decimal": 59811
+    }
+  ]
+}
