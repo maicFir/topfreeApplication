@@ -110,8 +110,10 @@ npm run build
 [![GitHub Pages](https://github.com/element-plus/element-plus-playground/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/maicFir/lessonNote)
 
 - 看完项目如果觉得对你有帮助，就点个`star`鼓励下作者吧
+
 - 更多技术关注`公众号:Web技术学苑`，好好学习、天天向上!
-  ![](https://files.mdnice.com/user/24614/50dd18f5-e2d5-4eb5-ac76-716aec6da88f.jpg)
+
+![](https://files.mdnice.com/user/24614/50dd18f5-e2d5-4eb5-ac76-716aec6da88f.jpg)
 
 ### License
 
