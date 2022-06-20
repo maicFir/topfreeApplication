@@ -1,6 +1,6 @@
 {
   "name": "topfreeapplication",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "popular application in Apple",
   "main": "index.js",
   "scripts": {
