@@ -1,0 +1,40 @@
+@import url('./normalize.less');
+@import url('//at.alicdn.com/t/c/font_3470263_sw1krly77xh.css');
+html {
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: calc(100vw / 750 * 100);
+}
+
+[lang]:lang(zh-CN) {
+  font-family: 'SF Pro SC', 'SF Pro Text', 'SF Pro Icons', 'PingFang SC', 'Helvetica Neue',
+    'Helvetica', 'Arial', sans-serif;
+}
+body {
+  box-sizing: border-box;
+  font-family: inherit;
+  &::before {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #f4f5f8;
+  }
+}
+img[lazy] {
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+img[lazy='loading'] {
+  background-image: url(../images/lazy/loading.gif);
+  background-size: 36px 36px;
+}
+
+img[lazy='error'] {
+  background-image: url(../images/lazy/error.svg);
+}
