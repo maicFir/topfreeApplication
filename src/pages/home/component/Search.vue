@@ -18,6 +18,7 @@
         v-if="searchVal"
       />
       <!-- <i class="iconfont icon-shanchu"></i> -->
+      <!--unicode-->
       <i class="iconfont maic-del" unicode="&#xe718;"></i>
     </div>
   </div>
